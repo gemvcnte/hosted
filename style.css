@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=ADLaM+Display:regular);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ADLaM Display';
+    text-decoration: none;
+}
+
+.nav-container {
+    width: 100%;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly   ;
+    margin-top: 2rem;
+}
+
+.navigation .nav-list {
+    list-style-type: none;
+}
+
+.nav-list a {
+    color: black;
+
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+}
+
+main h1 {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.link-container,.img-container, .button-container{
+    display: flex;
+    justify-content: center;
+    margin: 2.5rem;
+}
+
+.link-container a{
+    color: linear-gradient(#ea4335, #34a853, #4285f4, #fbbc05);
+}
+
+.button-container button {
+    cursor: pointer;
+    margin: 0 3rem;
+    border-radius: 6px;
+    width: 5rem;
+    height: 3.4rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.img-container img {
+    mix-blend-mode: multiply;
+}
+
+.button-container #changeContentEl {
+    border: none;   
+}
+
